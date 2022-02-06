@@ -58,7 +58,7 @@ client.connect((err) => {
     });
   });
 
-  //uodate user info
+  // uodate user info
   app.put("/update/:id", async (req, res) => {
     const id = req.params.id;
     const updatedName = req.body;
@@ -74,47 +74,6 @@ client.connect((err) => {
   });
 });
 
-const users = [
-  { "id": 0, "name": "Shabana", "email": "Shabana@gmail.com", "phone": "01788888888" },
-  {
-    "id": 1,
-    name: "Shabnoor",
-    email: "Shabnoor@gmail.com",
-    phone: "01788888888",
-  },
-  {
-    "id": 2,
-    "name": "Shrabonti",
-    "email": "Shrabonti@gmail.com",
-    "phone": "01788888888",
-  },
-  {
-    "id": 3,
-    "name": "Suchorita",
-    "email": "Suchorita@gmail.com",
-    "phone": "01788888888",
-  },
-  { "id": 4, "name": "Soniya", "email": "Soniya@gmail.com", "phone": "01788888888" },
-  { "id": 5, "name": "Susmita", email: "Susmita@gmail.com", phone: "01788888888" },
-];
-
-// app.get("/user", (req, res) => {
-//   const search = req.query.search;
-//   if (search) {
-//     const searchResult = users.filter((user) =>
-//       user.name.toLowerCase().includes(search)
-//     );
-//     res.send(searchResult);
-//   } else {
-//     res.send(users);
-//   }
-//   res.send(users);
-// });
-
-// app.get("/user/:userId", (req, res) => {
-//   console.log(req.params.userId);
-//   res.send(users[req.params.userId]);
-// });
 
 app.listen(port, () => {
   console.log("Running Server on port", port);
