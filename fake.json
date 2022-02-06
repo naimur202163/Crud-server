@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Shabnoor",
+    "email": "Shabnoor@gmail.com",
+    "phone": "01788888888"
+  },
+  {
+    "id": 2,
+    "name": "Shrabonti",
+    "email": "Shrabonti@gmail.com",
+    "phone": "01788888888"
+  },
+  {
+    "id": 3,
+    "name": "Suchorita",
+    "email": "Suchorita@gmail.com",
+    "phone": "01788888888"
+  },
+  {
+    "id": 4,
+    "name": "Soniya",
+    "email": "Soniya@gmail.com",
+    "phone": "01788888888"
+  },
+  {
+    "id": 5,
+    "name": "Smita",
+    "email": "Susmita@gmail.com",
+    "phone": "01788888888"
+  }
+]
